@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Desa Mayungan</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+    /* tambahan khusus halaman galeri */
+
+    .galeri-hero{
+        background:#1F2D24;
+        color:white;
+        text-align:center;
+        padding:120px 20px 60px;
+    }
+
+    .galeri-hero h1{
+        font-size:50px;
+        color:#C9A227;
+    }
+
+    .galeri-section{
+        padding:80px 10%;
+    }
+
+    .section-title{
+        font-size:32px;
+        margin-bottom:30px;
+        border-left:6px solid #C9A227;
+        padding-left:15px;
+        color:#1F2D24;
+    }
+
+    .galeri-container{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+        gap:25px;
+    }
+
+    .galeri-card{
+        background:white;
+        border-radius:20px;
+        padding:15px;
+        text-align:center;
+        box-shadow:0 10px 25px rgba(0,0,0,0.1);
+        transition:0.3s;
+    }
+
+    .galeri-card:hover{
+        transform:translateY(-8px);
+    }
+
+    .galeri-card img{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+        border-radius:15px;
+    }
+
+    .galeri-card h3{
+        margin-top:15px;
+        color:#1F2D24;
+        font-size:18px;
+    }
+
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+    <img src="Gambar/logo.png" alt="Logo Desa">
+
+    <div class="logo-text">
+        <h2>Desa Mayungan</h2>
+        <p>Kecamatan Ngawen • Kabupaten Klaten</p>
+    </div>
+</div>
+
+<ul class="menu">
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="profil.html">Profil</a></li>
+    <li><a href="galeri.html" style="color:#C9A227;">Galeri</a></li>
+    <li><a href="unduhan.html">Unduhan</a></li>
+
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="galeri-hero">
+    <h1>Galeri Desa</h1>
+    <p>Dokumentasi berbagai kegiatan masyarakat Desa Mayungan</p>
+</section>
+
+<!-- GALERI -->
+
+<section class="galeri-section">
+
+<h2 class="section-title">Kegiatan Desa</h2>
+
+<div class="galeri-container">
+
+    <div class="galeri-card">
+        <img src="Gambar/g1.jpg" alt="">
+        <h3>Perkumpulan rutin muda mudi gelang ( MMG )</h3>
+    </div>
+
+    <div class="galeri-card">
+        <img src="Gambar/g2.jpg" alt="">
+        <h3>Pemberdayaan dan Kesejahteraan Keluarga (PKK)</h3>
+    </div>
+
+    <div class="galeri-card">
+        <img src="Gambar/g3.jpg" alt="">
+        <h3>Lomba Paduan Suara Desa Mayungan</h3>
+    </div>
+
+    <div class="galeri-card">
+        <img src="Gambar/g4.jpg" alt="">
+        <h3>Gelar Bazar UMKM Desa Mayungan 2023</h3>
+    </div>
+
+    <div class="galeri-card">
+        <img src="Gambar/g5.jpg" alt="">
+        <h3>Perayaan HUT RI</h3>
+    </div>
+    
+    <div class="galeri-card">
+        <img src="Gambar/g6.jpg" alt="">
+        <h3>Kegiatan Jalan Sehat Rutin</h3>
+    </div>
+
+</div>
+
+</section>
+<footer>
+
+    <h3>Desa Mayungan</h3>
+
+    <div class="footer-content">
+
+        <div class="footer-item">
+            <h4>📍 Lokasi</h4>
+            <p>
+                Desa Mayungan, Kecamatan Ngawen,
+                Kabupaten Klaten, Jawa Tengah (57466)
+            </p>
+        </div>
+
+        <div class="footer-item">
+            <h4>☎️ Telepon</h4>
+            <p>(0272) 72562591</p>
+        </div>
+
+        <div class="footer-item">
+            <h4>📱 WhatsApp</h4>
+            <p>085740203091</p>
+        </div>
+
+        <div class="footer-item">
+            <h4>✉️ Email</h4>
+            <p>desamayungan@gmail.com</p>
+        </div>
+
+        <div class="footer-item">
+            <h4>🕒 Jam Pelayanan</h4>
+            <p>Senin - Jumat</p>
+            <p>08.00 - 15.00 WIB</p>
+        </div>
+
+        <div class="footer-item">
+            <h4>📱 Media Sosial</h4>
+
+            <div class="social-item">
+                <span>📷</span>
+                <a href="#">Instagram : @desamayungan</a>
+            </div>
+
+            <div class="social-item">
+                <span>🎵</span>
+                <a href="#">TikTok : @desamayungan</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Desa Mayungan | All Rights Reserved
+    </p>
+
+</footer>
+
+
+</body>
+</html>
+
